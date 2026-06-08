@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Self Experience Apps",
+    "description": "Browser-based prototypes for exploring agency, subjective experience, and the felt structure of self.",
+    "url": "#",
+    "category": "Experience"
+  },
+  {
+    "title": "Reaction Test",
+    "description": "A lightweight reaction-time prototype for observing timing, readiness, and action.",
+    "url": "#",
+    "category": "Experiment"
+  },
+  {
+    "title": "Reflex App",
+    "description": "An interactive application exploring reflexive response and subjective control.",
+    "url": "#",
+    "category": "Prototype"
+  }
+]
