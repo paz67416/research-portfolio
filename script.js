@@ -1,6 +1,7 @@
 const root = document.documentElement;
 const toggle = document.querySelector(".theme-toggle");
 const appsGrid = document.querySelector("#apps-grid");
+const isJapanese = root.lang === "ja";
 
 const savedTheme = localStorage.getItem("research-theme");
 if (savedTheme) {
@@ -42,7 +43,7 @@ function createAppCard(app) {
     link.href = app.url;
     link.target = "_blank";
     link.rel = "noopener";
-    link.textContent = "Open application";
+    link.textContent = isJapanese ? "アプリを見る" : "Open application";
     article.append(link);
   }
 
@@ -51,13 +52,16 @@ function createAppCard(app) {
 
 async function loadApps() {
   try {
-    const response = await fetch("apps.json", { cache: "no-store" });
+    const appsFile = isJapanese ? "apps-ja.json" : "apps.json";
+    const response = await fetch(appsFile, { cache: "no-store" });
     if (!response.ok) throw new Error("Unable to load apps.json");
     const apps = await response.json();
     appsGrid.innerHTML = "";
     apps.forEach((app) => appsGrid.append(createAppCard(app)));
   } catch (error) {
-    appsGrid.innerHTML = '<article class="card"><h3>Applications</h3><p>Application data could not be loaded. Check apps.json.</p></article>';
+    appsGrid.innerHTML = isJapanese
+      ? '<article class="card"><h3>アプリケーション</h3><p>アプリ一覧を読み込めませんでした。apps-ja.json を確認してください。</p></article>'
+      : '<article class="card"><h3>Applications</h3><p>Application data could not be loaded. Check apps.json.</p></article>';
   }
 }
 

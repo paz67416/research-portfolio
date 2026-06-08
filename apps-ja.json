@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Self Experience Apps",
+    "description": "主体感、主観的経験、自己の成立感をブラウザ上で体験的に探るプロトタイプ群です。",
+    "url": "#",
+    "category": "Experience"
+  },
+  {
+    "title": "Reaction Test",
+    "description": "反応時間、準備状態、行為のタイミングを観察するための軽量な実験アプリです。",
+    "url": "#",
+    "category": "Experiment"
+  },
+  {
+    "title": "Reflex App",
+    "description": "反射的な応答と主観的なコントロール感を探るインタラクティブなアプリです。",
+    "url": "#",
+    "category": "Prototype"
+  }
+]
