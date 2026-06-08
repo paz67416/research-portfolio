@@ -1,20 +1,38 @@
 [
   {
-    "title": "Self Experience Apps",
-    "description": "主体感、主観的経験、自己の成立感をブラウザ上で体験的に探るプロトタイプ群です。",
-    "url": "#",
-    "category": "Experience"
-  },
-  {
     "title": "Reaction Test",
-    "description": "反応時間、準備状態、行為のタイミングを観察するための軽量な実験アプリです。",
-    "url": "#",
+    "description": "反応時間、準備状態、行為のタイミングを観察するための軽量なブラウザ実験アプリです。",
+    "url": "https://paz67416.github.io/reaction-test/",
     "category": "Experiment"
   },
   {
-    "title": "Reflex App",
-    "description": "反射的な応答と主観的なコントロール感を探るインタラクティブなアプリです。",
-    "url": "#",
-    "category": "Prototype"
+    "title": "ちょうどいい私",
+    "description": "主体感、快・不快、ちょうどよさの感覚を体験的に探る自己経験プロトタイプです。",
+    "url": "https://paz67416.github.io/self-experience-apps/choudo-ii-watashi/",
+    "category": "Self Experience"
+  },
+  {
+    "title": "避ける私",
+    "description": "避ける動き、反応のタイミング、行為している私の感覚を観察する体験アプリです。",
+    "url": "https://paz67416.github.io/self-experience-apps/yokeru-watashi/",
+    "category": "Self Experience"
+  },
+  {
+    "title": "暑さ・節電バランスチェッカー",
+    "description": "身体感覚、暑さ、節電、日常判断をつなぐ実用的なブラウザプロトタイプです。",
+    "url": "https://paz67416.github.io/self-experience-apps/atsusa-setsuden-balance-checker/",
+    "category": "Everyday Cognition"
+  },
+  {
+    "title": "部屋干しニオイリスクチェッカー",
+    "description": "不快感や環境条件を、日常の判断に変換するための軽量なチェックアプリです。",
+    "url": "https://paz67416.github.io/self-experience-apps/heyaboshi-nioi-risk-checker/",
+    "category": "Everyday Cognition"
+  },
+  {
+    "title": "Kamae Arts",
+    "description": "構えを、操作、注意、美的経験の中で体験的に探るクリエイティブなプロトタイプです。",
+    "url": "https://paz67416.github.io/self-experience-apps/kamae-arts/",
+    "category": "Kamae"
   }
 ]

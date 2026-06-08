@@ -321,6 +321,19 @@ h3 {
   transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
 }
 
+.publication-list {
+  margin-top: 18px;
+}
+
+.compact-card {
+  min-height: 0;
+  padding: 20px;
+}
+
+.compact-card h3 {
+  font-size: 1rem;
+}
+
 .card.visual {
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent), transparent 54%),
