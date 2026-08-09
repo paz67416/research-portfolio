@@ -1,38 +1,44 @@
 [
   {
-    "title": "Reaction Test",
-    "description": "反応時間、準備状態、行為のタイミングを観察するための軽量なブラウザ実験アプリです。",
-    "url": "https://paz67416.github.io/reaction-test/",
-    "category": "Experiment"
+    "title": "Resonance — Emergent Agency",
+    "description": "自己経験アプリ群の入口。主体感がどのように立ち上がるかを、操作を通じて確かめられるようにした一連のプロトタイプです。",
+    "url": "https://paz67416.github.io/self-experience-apps/",
+    "category": "Self Experience"
   },
   {
-    "title": "ちょうどいい私",
+    "title": "ちょうどいいわたし",
     "description": "主体感、快・不快、ちょうどよさの感覚を体験的に探る自己経験プロトタイプです。",
     "url": "https://paz67416.github.io/self-experience-apps/choudo-ii-watashi/",
     "category": "Self Experience"
   },
   {
-    "title": "避ける私",
+    "title": "避けるわたし",
     "description": "避ける動き、反応のタイミング、行為している私の感覚を観察する体験アプリです。",
     "url": "https://paz67416.github.io/self-experience-apps/yokeru-watashi/",
     "category": "Self Experience"
   },
   {
-    "title": "暑さ・節電バランスチェッカー",
+    "title": "KAMAE ARTS",
+    "description": "構えを、操作、注意、美的経験の中で体験的に探るクリエイティブなプロトタイプです。",
+    "url": "https://paz67416.github.io/self-experience-apps/kamae-arts/",
+    "category": "Kamae"
+  },
+  {
+    "title": "反射神経測定アプリ",
+    "description": "反応時間、準備状態、行為のタイミングを観察するための軽量なブラウザ実験アプリです。",
+    "url": "https://paz67416.github.io/reaction-test/",
+    "category": "Experiment"
+  },
+  {
+    "title": "暑さと節電のちょうどよさチェッカー",
     "description": "身体感覚、暑さ、節電、日常判断をつなぐ実用的なブラウザプロトタイプです。",
     "url": "https://paz67416.github.io/self-experience-apps/atsusa-setsuden-balance-checker/",
     "category": "Everyday Cognition"
   },
   {
-    "title": "部屋干しニオイリスクチェッカー",
+    "title": "部屋干し臭リスクチェッカー",
     "description": "不快感や環境条件を、日常の判断に変換するための軽量なチェックアプリです。",
     "url": "https://paz67416.github.io/self-experience-apps/heyaboshi-nioi-risk-checker/",
     "category": "Everyday Cognition"
-  },
-  {
-    "title": "Kamae Arts",
-    "description": "構えを、操作、注意、美的経験の中で体験的に探るクリエイティブなプロトタイプです。",
-    "url": "https://paz67416.github.io/self-experience-apps/kamae-arts/",
-    "category": "Kamae"
   }
 ]
