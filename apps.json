@@ -1,9 +1,9 @@
 [
   {
-    "title": "Reaction Test",
-    "description": "A lightweight browser experiment for observing reaction time, readiness, and the timing of action.",
-    "url": "https://paz67416.github.io/reaction-test/",
-    "category": "Experiment"
+    "title": "Resonance — Emergent Agency",
+    "description": "Entry point to the self-experience series: a set of prototypes for feeling out how a sense of agency comes into being through interaction.",
+    "url": "https://paz67416.github.io/self-experience-apps/",
+    "category": "Self Experience"
   },
   {
     "title": "Choudo Ii Watashi",
@@ -18,6 +18,18 @@
     "category": "Self Experience"
   },
   {
+    "title": "KAMAE ARTS",
+    "description": "A creative prototype for exploring kamae through interaction, attention, and aesthetic experience.",
+    "url": "https://paz67416.github.io/self-experience-apps/kamae-arts/",
+    "category": "Kamae"
+  },
+  {
+    "title": "Reaction Test",
+    "description": "A lightweight browser experiment for observing reaction time, readiness, and the timing of action.",
+    "url": "https://paz67416.github.io/reaction-test/",
+    "category": "Experiment"
+  },
+  {
     "title": "Heat & Energy Balance Checker",
     "description": "A practical prototype that connects bodily sensation, heat, energy saving, and everyday decision-making.",
     "url": "https://paz67416.github.io/self-experience-apps/atsusa-setsuden-balance-checker/",
@@ -28,11 +40,5 @@
     "description": "A daily-life checker that turns subjective discomfort and environmental conditions into a simple reflective tool.",
     "url": "https://paz67416.github.io/self-experience-apps/heyaboshi-nioi-risk-checker/",
     "category": "Everyday Cognition"
-  },
-  {
-    "title": "Kamae Arts",
-    "description": "A creative prototype for exploring Kamae through interaction, attention, and aesthetic experience.",
-    "url": "https://paz67416.github.io/self-experience-apps/kamae-arts/",
-    "category": "Kamae"
   }
 ]
