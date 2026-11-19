@@ -299,6 +299,10 @@ h3 {
   gap: 18px;
 }
 
+.grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid.three {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -414,6 +418,7 @@ h3 {
   }
 
   .hero,
+  .grid.two,
   .grid.three,
   .grid.four,
   .stats,
@@ -431,3 +436,4 @@ h3 {
     flex-direction: column;
   }
 }
+

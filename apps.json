@@ -40,5 +40,54 @@
     "description": "A daily-life checker that turns subjective discomfort and environmental conditions into a simple reflective tool.",
     "url": "https://paz67416.github.io/self-experience-apps/heyaboshi-nioi-risk-checker/",
     "category": "Everyday Cognition"
+  },
+  {
+    "title": "交替勤務カレンダーメーカー",
+    "description": "A trial version that shows workdays and days off for this month and next month from a shift pattern and reference date. Interface in Japanese.",
+    "url": "https://paz67416.github.io/kotai-calendar/",
+    "category": "Everyday Calculators"
+  },
+  {
+    "title": "灯油の日数・灯油代計算機",
+    "description": "A trial version that estimates how long kerosene will last and its cost from fuel consumption, hours of use, and fuel price. Interface in Japanese.",
+    "url": "https://paz67416.github.io/touyu-calc/",
+    "category": "Everyday Calculators"
+  },
+  {
+    "title": "ふたりの休み合わせカレンダー",
+    "description": "A trial version that finds shared days off from two people's work schedules. Interface in Japanese.",
+    "url": "https://paz67416.github.io/futari-yasumi/",
+    "category": "Everyday Calculators"
+  },
+  {
+    "title": "タッチうんどうかい",
+    "description": "A demo of a two-player game with three events, played face to face on one smartphone. Interface in Japanese.",
+    "url": "https://paz67416.github.io/touch-undokai/",
+    "category": "Games"
+  },
+  {
+    "title": "ごろごろフルーツ",
+    "description": "A demo of a greengrocer puzzle: merge matching fruits, grow them, and fill customers' orders. Interface in Japanese.",
+    "url": "https://paz67416.github.io/gorogoro-fruits/",
+    "category": "Games"
+  },
+  {
+    "title": "有給の付与日・日数 計算機",
+    "description": "A trial version that estimates paid leave dates and days from a start date, working days, and working hours. Interface in Japanese.",
+    "url": "https://paz67416.github.io/yukyu-calc/",
+    "category": "Everyday Calculators"
+  },
+  {
+    "title": "派遣の3年ルール いつまで計算機",
+    "description": "A trial version that estimates dates related to a temporary work assignment from its start date and other details. Interface in Japanese.",
+    "url": "https://paz67416.github.io/haken-3nen/",
+    "category": "Everyday Calculators"
+  },
+  {
+    "title": "年末年始の連休 計算機",
+    "description": "A trial version that finds consecutive days off around New Year from company holidays and available paid leave days. Interface in Japanese.",
+    "url": "https://paz67416.github.io/nenmatsu-renkyu/",
+    "category": "Everyday Calculators"
   }
 ]
+

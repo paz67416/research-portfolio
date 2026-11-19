@@ -1,59 +1,36 @@
 # Masashi Awata Research Portfolio
 
-Static single-page portfolio website for an independent researcher.
+独立研究者・粟田正志（Masashi Awata）の研究、公開論文、実験プロトコル、ブラウザアプリを紹介する公開済みの静的サイトです。意識・クオリア・構え（Kamae）・AIを対象に、理論研究、実験的検証に向けたプロトコル設計、LLMへのプロンプト指示と評価方法の検討を行っています。
 
-## Files
+- [日本語サイト](https://paz67416.github.io/research-portfolio/ja.html)
+- [English website](https://paz67416.github.io/research-portfolio/)
 
-- `index.html` - Main page structure
-- `ja.html` - Japanese page
-- `styles.css` - Responsive dark/light theme styling
-- `script.js` - Theme toggle and application card loading
-- `apps.json` - Editable application list
-- `apps-ja.json` - Editable Japanese application list
+## 著者と関連サイト
 
-## Updating Applications
+- [ORCID](https://orcid.org/0009-0002-1422-1560)：著者識別子、研究成果と各版の登録情報。
+- [Google Scholar](https://scholar.google.com/citations?hl=ja&user=it7GiDsAAAAJ)：論文プロフィールと引用情報。
+- [GitHub — paz67416](https://github.com/paz67416)：研究用コード、制作物、公開サイトのソース。
+- [note — No Existe](https://note.com/pazeamor)：意識、クオリア、自由意志、構えをめぐるエッセイと思考の記録。
+- [note — 余白の実験室](https://note.com/chodo_lab)：生活計算機、勤務カレンダー、ブラウザゲームなど、日常の判断や体感を扱う小さな道具の制作記録。
 
-Application cards are loaded automatically from `apps.json`.
-Japanese application cards are loaded automatically from `apps-ja.json`.
+## Latest research / 最近の研究
 
-Add a new application by adding an object like this:
+- **2026年11月18日・未査読プレプリント**：[LLMへの構えの指示は何を変えるのか — 偽薬対照によるプロンプト効果の検証と測定上の課題](https://doi.org/10.5281/zenodo.24344070)。構えの指示と偽薬対照を比較した第1報です。回答特徴の変化は見られた一方、偽薬対照を上回る一貫した課題成績の改善は確認されていません。
+- **2026年11月15日・検証報告書（Report）**：[LLM構え実験第1報の検証報告書 — 保存データの独立再計算と実行記録の照合](https://doi.org/10.5281/zenodo.24247357)。保存データを別実装で再計算し、実行記録と照合した結果、および統計処理・保存記録の問題をまとめています。研究仮説の確証や全工程の再現完了を示すものではありません。
 
-```json
-{
-  "title": "New Application",
-  "description": "Short description of the application.",
-  "url": "https://example.com",
-  "category": "Prototype"
-}
-```
+両資料ともv1です。元の回答データと再計算コードは公開セットに含まれず、第三者が公開資料だけで全工程を再現できる状態ではありません。プロンプトによる回答の変化と、LLMの内部状態・主観的経験の成立を区別しています。
 
-Keep the file as valid JSON. Commas are required between objects, but not after the final object.
+## 資料の位置づけ
 
-For the Japanese page, add the same type of object to `apps-ja.json`.
+査読済みの掲載論文、未査読の公開論文・プレプリント、実験プロトコル、初期の理論記録を区別して紹介しています。公開やDOIの取得だけで、査読済み・実験で検証済みになるわけではありません。初期稿は研究の変遷をたどれるよう残しています。
 
-## GitHub Pages Deployment
+初回公開日、各版の公開日、文書に記された日付は区別します。改訂時は現行版へのリンクを更新し、必要に応じて旧版との関係も示します。正式な書誌情報と版履歴はリンク先の出版社・リポジトリを参照してください。
 
-1. Create a GitHub repository named `research-portfolio`.
-2. Upload `index.html`, `ja.html`, `styles.css`, `script.js`, `apps.json`, `apps-ja.json`, and `README.md`.
-3. Open repository settings.
-4. Go to Pages.
-5. Select the main branch and root folder.
-6. Save and wait for GitHub Pages to publish.
+[OSFのフィージビリティ・プロトコルv2](https://osf.io/yn45t/)は未実施の設計文書です。2026年11月8日の確認時点で、このOSFプロジェクトに完了済みのRegistrationはありません。プロトコルの公開、事前登録、実験の実施は別の状態として扱います。
 
-The site will usually become available at:
+## 更新方法
 
-```text
-https://<username>.github.io/research-portfolio/
-```
-
-## Custom Links
-
-Replace placeholder `#` links in `index.html` and `apps.json` with real URLs for:
-Also replace matching placeholder links in `ja.html` and `apps-ja.json`.
-
-- AIP Advances paper
-- ORCID profile
-- Zenodo papers
-- LinkedIn
-- YouTube
-- Applications
+- 研究紹介・論文・プロフィールは英語の `index.html` と日本語の `ja.html` を対応させて更新します。題名、DOI、日付、版、査読・実施状況を両言語で一致させます。
+- アプリ一覧は `apps.json`（英語）と `apps-ja.json`（日本語）を更新します。同じアプリのURL・掲載順・分類をそろえ、題名と説明を各言語で記述します。各項目は `title`、`description`、`url`、`category` を持つ有効なJSONにします。
+- 見た目は `styles.css`、テーマ切替とアプリ一覧の読み込みは `script.js` で管理します。
+- 公開前に両言語ページの表示、言語切替、アプリ一覧、外部リンクを確認し、GitHub Pagesへの反映後も公開URLで確認します。

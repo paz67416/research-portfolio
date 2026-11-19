@@ -40,5 +40,54 @@
     "description": "不快感や環境条件を、日常の判断に変換するための軽量なチェックアプリです。",
     "url": "https://paz67416.github.io/self-experience-apps/heyaboshi-nioi-risk-checker/",
     "category": "Everyday Cognition"
+  },
+  {
+    "title": "交替勤務カレンダーメーカー",
+    "description": "勤務の並びと基準日から、今月と来月の出勤日・休みを確認できるお試し版です。",
+    "url": "https://paz67416.github.io/kotai-calendar/",
+    "category": "日常計算"
+  },
+  {
+    "title": "灯油の日数・灯油代計算機",
+    "description": "燃料消費量、使用時間、灯油の値段から、灯油がもつ日数と費用の目安を計算するお試し版です。",
+    "url": "https://paz67416.github.io/touyu-calc/",
+    "category": "日常計算"
+  },
+  {
+    "title": "ふたりの休み合わせカレンダー",
+    "description": "ふたりの勤務パターンを選び、ふたりとも休みになる日を確認できるお試し版です。",
+    "url": "https://paz67416.github.io/futari-yasumi/",
+    "category": "日常計算"
+  },
+  {
+    "title": "タッチうんどうかい",
+    "description": "スマホ1台をはさんで向かい合い、3つの競技で遊べる2人対戦ゲームの体験版です。",
+    "url": "https://paz67416.github.io/touch-undokai/",
+    "category": "ゲーム"
+  },
+  {
+    "title": "ごろごろフルーツ",
+    "description": "同じフルーツを合わせて育て、注文どおりに出荷する八百屋パズルの体験版です。",
+    "url": "https://paz67416.github.io/gorogoro-fruits/",
+    "category": "ゲーム"
+  },
+  {
+    "title": "有給の付与日・日数 計算機",
+    "description": "入社日と勤務日数・時間から、有給休暇の付与日と日数の目安を確認するお試し版です。",
+    "url": "https://paz67416.github.io/yukyu-calc/",
+    "category": "日常計算"
+  },
+  {
+    "title": "派遣の3年ルール いつまで計算機",
+    "description": "勤務開始日などを入力して、派遣期間に関する日付の目安を確認するお試し版です。",
+    "url": "https://paz67416.github.io/haken-3nen/",
+    "category": "日常計算"
+  },
+  {
+    "title": "年末年始の連休 計算機",
+    "description": "会社の年末年始休暇と有給の日数から、連休になる日程を確認できるお試し版です。",
+    "url": "https://paz67416.github.io/nenmatsu-renkyu/",
+    "category": "日常計算"
   }
 ]
+
